@@ -1,0 +1,39 @@
+        P{
+        font-family: 'Roboto', 'Open Sans', sans-serif;
+        color: #000000;
+        box-sizing: border-box;}
+        
+        header h1 {
+        color: rgb(0, 0, 0);
+        display: inline;
+        font-family: 'Zen Maru Gothic', 'Dosis', serif;
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+        article h2 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-family: 'Zen Maru Gothic', 'Dosis', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+        article img {
+        max-width: 100%;
+        height:auto;}
+
+        nav, #feature, footer {
+        float: right;
+        margin: 1%; }
+
+        nav li {
+        display: inline;
+		padding: 0.5em;
+        color: rgb(0, 0, 0);
+        font-family: 'Roboto', 'Open Sans', sans-serif;
+        }
+
+
+        
+
