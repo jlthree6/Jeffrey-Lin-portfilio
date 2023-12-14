@@ -3,65 +3,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>contact form</title>
-    <link href="css/contact-form.css" rel="stylesheet">
-<link rel="stylesheet" href="css/W3.css">
-<link rel="stylesheet" href="css/my-styles.css">
+    <link rel="stylesheet" href="css/W3.css">
+    <link rel="stylesheet" href="css/my-styles.css">
 </head>
 
 <body>
+    <div class="w3-content w3-margin-top" style="max-width:1400px;"></div>
 
-    <header class="w3-container w3-green">  
-    
-        <h1> Jeffrey Lin </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="contact-me-test.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>    
+    <header>  
+        <div class="w3-bar w3-container w3-border w3-white w3-top w3-xlarge">
+            <h1> <a href="index.html">Jeffrey Lin</a></h1>
+            <a href="contact-me-test.html" class="w3-bar-item w3-button w3-padding-16 w3-right">Contact</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-padding-16 w3-right">About Me</a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-16 w3-right">Work</a>
+        </div>
+    </header>  
 
-<div class="fcf-body">
+            <br><br><br>
 
-    <div id="fcf-form">
-    <h3 class="fcf-h3">Contact Me</h3>
+        <div class="w3-row w3-content">
+        <div class="w3-col m3 w3-hide-small w3-block"></div>
+            <div class="w3-col s12 m12" id="fcf-form">
+                <h3 class="fcf-h3">Contact Me</h3>
 
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://formsubmit.co/Jlthree6@gmail.com">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://formsubmit.co/Jlthree6@gmail.com">
+                    
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div>
+
+                </form>
             </div>
+            <div class="w3-col m3 w3-hide-small"></div>
         </div>
-
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
-
-        <div class="fcf-credit" id="fcf-credit">
-        Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
-        </div>
-
-    </form>
     </div>
-
-</div>
-
 </body>
 </html>
