@@ -2,10 +2,12 @@
 <html>
 
 <head>
-    <title>Jeffrey Lin</title>
+    <title>Kodak Rivival</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/W3.css">
     <link rel="stylesheet" href="css/my-styles.css">
+    <script defer src="myscript.js"></script>
 </head>
 <body>
 
@@ -24,17 +26,84 @@
 
 <div class="w3-container">
     <div class="w3-content" style="max-width:900px">
-    <h1>Reviving Kodak</h1>
+    <h1>Kodak Rivival</h1>
     <br>
-    <p>For the 2nd project in Communication Design I, we had to revive dead brands. My group chose to revive Kodak. I came with the idea of capturing momemnts using frames like poloroid frames, picture frames, hand frames,
-        and a mobile phone. What I would want to fix is the lighting on the hands needs to match the settings. 
+    <p>For the 2nd project in Communication Design I, we had to revive dead brands. 
+        My group chose to revive Kodak by turning it into an Instagram Competitor. 
+        I came with the idea of capturing moments using frames like poloroid frames, picture frames, hand frames, and a mobile phone. 
+        What I would want to fix is the lighting on the hands needs to match the settings. 
     </p>
 </div>
 
 <br><br><br><br>
 
-<div class="w3-container">
-    <div class="w3-content" style="max-width:400px">
-    <a href="assets/no bs, just pics copy-300dpi.jpg">
-    <img src="assets/no bs, just pics-72dpi.jpg" style="width:100%;max-width:1000px">
+<h2 style="text-align:center">Slideshow Gallery</h2>
+    
+    <div class="imgcontainer">
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <a href="assets/A moment to frame pic-300dpi.jpg">
+        <img src="assets/A moment to frame pic-300dpi.jpg" style="width:100%">
+        </a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <a href="assets/Frame the moment-300dpi.jpg">
+        <img src="assets/Frame the moment-300dpi.jpg" style="width:100%">
+        </a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <a href="assets/Tap into the creative space-300dpi.jpg">
+        <img src="assets/Tap into the creative space-300dpi.jpg" style="width:100%">
+        </a>
+      </div>
+        
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <a href="assets/no bs, just pics copy-300dpi.jpg">
+            <img src="assets/no bs, just pics copy-300dpi.jpg" style="width:100%">
+            </a>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="assets/A moment to frame pic-thumbnail.jpg" style="width:80%" onclick="currentSlide(1)" alt="Ad 1">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="assets/Frame the moment-thumbnail.jpg" style="width:80%" onclick="currentSlide(2)" alt="Ad 2">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="assets/Tap into the creative space-thumbnail.jpg" style="width:80%" onclick="currentSlide(3)" alt="Ad 3">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="assets/no bs, just pics-thumbnail.jpg" style="width:80%" onclick="currentSlide(4)" alt="Ad 4">
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+   
+    <div class="w3-bar">
+        <a href="AltHappycover.html">
+  <button class="w3-button w3-left w3-light-grey">&laquo; Previous</button>
+        </a>
+        <a href="NRDCawareness.html">
+  <button class="w3-button w3-right w3-red">Next &raquo;</button>
+    </a>
 </div>
+</div>
+
+</body>
+
+</html>

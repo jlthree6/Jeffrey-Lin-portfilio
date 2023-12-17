@@ -2,10 +2,12 @@
 <html>
 
 <head>
-    <title>Jeffrey Lin</title>
+    <title>NRDC Awareness</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/W3.css">
     <link rel="stylesheet" href="css/my-styles.css">
+    <script defer src="myscript.js"></script>
 </head>
 <body>
 
@@ -22,22 +24,74 @@
 
 <br><br><br><br>
 
+
 <div class="w3-container">
     <div class="w3-content" style="max-width:900px">
     <h1>NRDC Awareness Campaign</h1>
     <br>
-    <p>My third project in Communication design I is to make 3 poster in NRDC.  
+    <p>My third project in Communication design I is to make 3 awareness posters for NRDC.  
     </p>
 </div>
 
 <br><br><br><br>
 
-<div class="w3-container">
-    <div class="w3-content" style="max-width:400px">
-    <a href="assets/nrdcposter1-300dpi.jpg">
-    <img src="assets/nrdcposter1-72dpi.jpg" style="width:100%;max-width:1000px">
-    <a href="assets/Nrdcposter2-300dpi.jpg">
-    <img src="assets/Nrdcposter2-72dpi.jpg" style="width:100%;max-width:1000px">
-    <a href="assets/Nrdcposter3-300dpi.jpg">
-    <img src="assets/Nrdcposter3-72dpi.jpg" style="width:100%;max-width:1000px">
+<h2 style="text-align:center">Slideshow Gallery</h2>
+    
+    <div class="imgcontainer">
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <a href="assets/nrdcposter1-300dpi.jpg">
+        <img src="assets/nrdcposter1-300dpi.jpg" style="width:100%">
+        </a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <a href="assets/Nrdcposter2-300dpi.jpg">
+        <img src="assets/Nrdcposter2-300dpi.jpg" style="width:100%">
+        </a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <a href="assets/Nrdcposter3-300dpi.jpg">
+        <img src="assets/Nrdcposter3-300dpi.jpg" style="width:100%">
+        </a>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="assets/nrdcposter1-thumbnail.jpg" style="width:80%" onclick="currentSlide(1)" alt="Poster 1">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="assets/Nrdcposter2-thumbnial.jpg" style="width:80%" onclick="currentSlide(2)" alt="Poster 2">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="assets/Nrdcposter3-thumbnail.jpg" style="width:80%" onclick="currentSlide(3)" alt="Poster 3">
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+   
+    <div class="w3-bar">
+        <a href="Kodakrivival.html">
+  <button class="w3-button w3-left w3-light-grey">&laquo; Previous</button>
+        </a>
+        <a href="FuelieNewBrand.html">
+  <button class="w3-button w3-right w3-red">Next &raquo;</button>
+    </a>
 </div>
+</div>
+
+</body>
+
+</html>
